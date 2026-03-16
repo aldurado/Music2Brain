@@ -10,7 +10,7 @@ The data and code that can be used to reproduce the results described in the pap
 | `MindMonitorData` | Folder containing all input and output data |
 
 
-## Inside sub-folder MindMonitorData`
+## Inside sub-folder MindMonitorData
 | File | Description |
 |----------|----------|
 | `MindMonitorAnovaData-Anonymized.xlsx` | Post-processing analyzed data for stats and charts |
