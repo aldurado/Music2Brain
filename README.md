@@ -3,10 +3,21 @@ The data and code that can be used to reproduce the results described in the pap
 
 # Navigating source tree
 
-`brainwaves_anova_with_2var.ipynb` : This is the Jupytr notebook that defines several utility functions to process raw data from MindMonitor device.
+## Top level files
+| File | Description |
+|----------|----------|
+| `brainwaves_anova_with_2var.ipynb` | Top level script to process raw data from MindMonitor device |
+| `MindMonitorData` | Folder containing all input and output data |
 
-`MindMonitorData` : This is the sub-folder with all the anonymized raw data captured from MindMonitor device for each of the six participants. Under this folder, files are organized as Participant<#> {Harmony|Melody|Rhythm}.csv for each participant. 
 
-`MindMonitorData/MindMonitorAnovaData-Anonymized.xlsx` collects all the data generated from running `brainwaves_anova_with_2var.ipynb` and creates the statistical summary and charts. 
+## Inside sub-folder MindMonitorData`
+| File | Description |
+|----------|----------|
+| `MindMonitorAnovaData-Anonymized.xlsx` | Post-processing analyzed data for stats and charts |
+| `melody.band` | GarageBand file contianing Star Wars theme based melody deviation |
+| `rhythm.band` | GarageBand file contianing Star Wars theme based rhythm deviation |
+| `harmony.band`| GarageBand file contianing Star Wars theme based harmony deviation |
+| Participant<#> {Harmony|Melody|Rhythm}.csv | csv files containing raw captured PSD for each participant |
+
 
 
