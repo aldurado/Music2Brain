@@ -17,7 +17,7 @@ The data and code that can be used to reproduce the results described in the pap
 | `melody.band` | GarageBand file contianing Star Wars theme based melody deviation |
 | `rhythm.band` | GarageBand file contianing Star Wars theme based rhythm deviation |
 | `harmony.band`| GarageBand file contianing Star Wars theme based harmony deviation |
-| Participant<#> {Harmony|Melody|Rhythm}.csv | csv files containing raw captured PSD for each participant |
+| Participant<#> {Harmony\|Melody\|Rhythm}.csv | csv files containing raw captured PSD for each participant |
 
 
 
